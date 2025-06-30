@@ -1,0 +1,22 @@
+
+name: tiktok_video_viewer
+description: A Flutter app that displays phone videos like TikTok
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.7.0
+  permission_handler: ^11.0.0
+  path_provider: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
